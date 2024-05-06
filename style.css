@@ -1,6 +1,51 @@
 /* style.css */
 
-.header{
-        background-color: #1F2937;
-        color: white;
+.header {
+    background-color: #1F2937;
+    color: white;
+    font-size: 24px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    display: flex;
+
+}
+
+a {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+}
+title {
+    font-size: 36px;
+    font-weight: 1200;
+    color: #1F2937;
+    text-align: center;
+}
+.empty-box {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 1px blue;
+    display: flex;
+}
+
+
+
+
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+
 }
