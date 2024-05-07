@@ -23,6 +23,9 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
+.button {
+    color: #3882F6;
+}
 .title {
     font-size: 36px;
     font-weight: 1200;
