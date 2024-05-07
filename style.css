@@ -26,6 +26,9 @@ a {
 .button {
     color: #3882F6;
 }
+.container {
+    background-color: #E5E7EB;
+}
 .title {
     font-size: 36px;
     font-weight: 1200;
