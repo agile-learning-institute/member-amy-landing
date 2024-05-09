@@ -2,7 +2,7 @@
 
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     font-size: 24px;
 }
 
@@ -10,6 +10,9 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: right;
+    
+
 }
 
 li {
@@ -23,29 +26,27 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
+
 .button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: white;
 }
 
 
 
 .container {
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
-.title {
+
+/* .title {
     font-size: 36px;
     font-weight: 1200;
     color: #1F2937;
     text-align: center;
-    }
-    
-/* .empty-box {
-    width: 200px;
-    height: 100px;
-    background-color: white;
-    border: 1px blue;
     } */
-
 
 .footer {
     background-color: #1F2937;
