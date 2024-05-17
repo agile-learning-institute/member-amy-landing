@@ -11,7 +11,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: right;
-    
+  
 
 }
 
@@ -25,8 +25,22 @@ a {
     color: grey;
     text-decoration: none;
     font-size: 18px;
+    
 }
-
+.info-text {
+    /* display: flex; */
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: blue;
+    /* background-color: white; */
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    background-color: #3882F6;
+}
 .button {
     background-color: #3882F6;
     color: white;
@@ -40,13 +54,15 @@ a {
     font-style: italic;
     color: #1F2937;
     /* display: flex; */
+    /* text-align: center; */
 }
 
-.title {
+.hero-title {
     font-size: 36px;
     font-weight: 1200;
     color: #1F2937;
     text-align: center;
+    
     }
 
 .footer {
