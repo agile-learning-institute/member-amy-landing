@@ -1,8 +1,8 @@
 /* style.css */
 
 .header {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    /* background-color: #1F2937; */
+    /* color: #F9FAF8; */
     font-size: 24px;
 }
 
@@ -25,11 +25,8 @@ a {
     color: grey;
     text-decoration: none;
     font-size: 18px;
-    
 }
-.info-text {
-    /* display: flex; */
-}
+
 .box {
     width: 100px;
     height: 100px;
@@ -40,10 +37,17 @@ a {
 }
 h4 {
     background-color: #3882F6;
+    color: white;
 }
+p {
+    background-color: #3882F6;
+    color: white;
+}
+
 .button {
     background-color: #3882F6;
     color: white;
+    
 }
 
 
@@ -64,11 +68,14 @@ h4 {
     text-align: center;
     
     }
-
-.footer {
+.header, .footer, h3 {
     background-color: #1F2937;
+    color: white;
+}
+.footer {
+    /* background-color: #1F2937; */
     display: flex;
-    color: grey;
+    /* color: grey; */
     justify-content: center;
     align-items: center;
 
