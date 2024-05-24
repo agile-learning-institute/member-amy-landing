@@ -28,16 +28,23 @@ a {
 }
 
 .box {
-
     width: 100px;
     height: 100px;
-    border: blue;
+    border: 1px blue;
     /* background-color: white; */
     margin: 0;
     padding: 0;
     /* display: flex; */
+  /* flex-wrap: wrap; */
+  
 }
-
+figure > div {
+    border: 5px solid blue;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
 h4 {
     background-color: #3882F6;
     color: white;
@@ -62,7 +69,6 @@ h4 {
 
 .attribution {
     font-weight: bold;
-    /* display: flex; */
     background-color: #E5E7EB;
     text-align: end;
 }
@@ -86,10 +92,9 @@ h4 {
 }
 
 .footer {
-    /* background-color: #1F2937; */
-    display: flex;
-    /* color: grey; */
+    
+    /* display: flex; */
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 
 }
