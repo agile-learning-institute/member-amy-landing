@@ -26,9 +26,7 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
-.introLeft {
-background-color: #1F2937;
-}
+
 .box {
 
     width: 100px;
@@ -76,12 +74,11 @@ text-align: end;
     text-align: center;
 
 }
-
-.header, .footer,
-h3  {
+.dark-background {
     background-color: #1F2937;
     color: white;
 }
+
 
 .footer {
     /* background-color: #1F2937; */
