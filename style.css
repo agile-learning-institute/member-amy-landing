@@ -50,8 +50,6 @@ h4 {
 
 }
 
-
-
 .bigtext {
     background-color: #E5E7EB;
     font-size: 36px;
@@ -61,12 +59,14 @@ h4 {
     /* text-align: center; */
 
 }
+
 .attribution {
-font-weight: bold;
-/* display: flex; */
-background-color: #E5E7EB;
-text-align: end;
+    font-weight: bold;
+    /* display: flex; */
+    background-color: #E5E7EB;
+    text-align: end;
 }
+
 .hero-title {
     font-size: 36px;
     font-weight: 1200;
@@ -74,11 +74,16 @@ text-align: end;
     text-align: center;
 
 }
+
 .dark-background {
     background-color: #1F2937;
     color: white;
 }
 
+.blue-background {
+    background-color: #3882F6;
+    color: white;
+}
 
 .footer {
     /* background-color: #1F2937; */
