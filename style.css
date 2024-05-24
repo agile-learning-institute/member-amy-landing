@@ -1,50 +1,56 @@
 /* style.css */
-
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body>div {
+    padding: 15px;
+}
 .header {
     /* background-color: #1F2937; */
     /* color: #F9FAF8; */
     font-size: 24px;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: right;
 
 
-}
 
-li {
-    display: flex;
-
-}
 
 a {
-    display: flex;
     color: grey;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px;
 }
 
 .box {
     width: 100px;
     height: 100px;
     border: 1px blue;
+    border-radius: 20%;
     /* background-color: white; */
     margin: 0;
     padding: 0;
     /* display: flex; */
-  /* flex-wrap: wrap; */
-  
+    /* flex-wrap: wrap; */
+
 }
-figure > div {
+
+figure>div {
     border: 5px solid blue;
     margin: 0;
     padding: 0;
     width: 100px;
     height: 100px;
+    flex-direction: horizontal;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 h4 {
     background-color: #3882F6;
     color: white;
@@ -92,7 +98,7 @@ h4 {
 }
 
 .footer {
-    
+
     /* display: flex; */
     justify-content: center;
     /* align-items: center; */
