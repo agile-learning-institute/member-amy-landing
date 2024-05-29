@@ -4,37 +4,21 @@ body {
     margin: 0;
     padding: 0;
 }
+
 body>div {
     padding: 15px;
 }
+
 .header {
-    /* background-color: #1F2937; */
-    /* color: #F9FAF8; */
+      
     font-size: 24px;
 }
-
-
-
-
 
 a {
     color: grey;
     text-decoration: none;
     font-size: 18px;
     padding: 15px;
-}
-
-.box {
-    width: 100px;
-    height: 100px;
-    border: 1px blue;
-    border-radius: 20%;
-    /* background-color: white; */
-    margin: 0;
-    padding: 0;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-
 }
 
 figure>div {
@@ -56,7 +40,9 @@ h4 {
     background-color: #3882F6;
     color: white;
 }
-
+p {
+    text-wrap: wrap;
+}
 
 .button {
     background-color: #3882F6;
@@ -71,6 +57,7 @@ h4 {
     color: #1F2937;
     /* display: flex; */
     /* text-align: center; */
+   
 
 }
 
@@ -78,6 +65,7 @@ h4 {
     font-weight: bold;
     background-color: #E5E7EB;
     text-align: end;
+    
 }
 
 .hero-title {
@@ -96,12 +84,23 @@ h4 {
 .blue-background {
     background-color: #3882F6;
     color: white;
+    margin: 20px;
 }
 
-.footer {
+.placeholder {
+    font-size: 18px;
+    color: #E5E7EB;
+    /* justify-content: center; */
+    text-align: right;
+    padding: 20px;
+    margin: 20px;
+    /* flex-direction: row; */
+}
 
+
+.footer {
     /* display: flex; */
     justify-content: center;
     /* align-items: center; */
-
+    text-align: center;
 }
