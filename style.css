@@ -107,7 +107,7 @@ p {
     background-color: cadetblue;
     width: 500px;
     height: 100px;
-    display: flex;
+    /* display: flex; */
     justify-content: flex-end;
     margin-left: auto;
     text-align: center;
