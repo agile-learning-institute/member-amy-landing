@@ -10,7 +10,7 @@ body>div {
 }
 
 .header {
-      
+
     font-size: 24px;
 }
 
@@ -40,8 +40,13 @@ h4 {
     background-color: #3882F6;
     color: white;
 }
+
 p {
-    text-wrap: wrap;
+    font-size: 12px;
+    /* text-wrap: wrap; */
+    padding: 0;
+    /* width: 0; */
+        
 }
 
 .button {
@@ -55,17 +60,13 @@ p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    /* display: flex; */
-    /* text-align: center; */
-   
-
-}
+   }
 
 .attribution {
     font-weight: bold;
     background-color: #E5E7EB;
     text-align: end;
-    
+
 }
 
 .hero-title {
@@ -90,11 +91,14 @@ p {
 .placeholder {
     font-size: 18px;
     color: #E5E7EB;
-    /* justify-content: center; */
-    text-align: right;
     padding: 20px;
     margin: 20px;
-    /* flex-direction: row; */
+    background-color: cadetblue;
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+   
 }
 
 
@@ -103,5 +107,5 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-   
-} 
+
+}
