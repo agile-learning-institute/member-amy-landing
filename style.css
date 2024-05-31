@@ -69,10 +69,10 @@ p {
     font-weight: bold;
     background-color: #E5E7EB;
     text-align: end;
-  
     
 
 }
+
 
 .hero-title {
     font-size: 36px;
@@ -94,12 +94,12 @@ p {
 }
 
 .placeholder {
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7EB;
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
+    margin: 40px;
     background-color: cadetblue;
-    width: 250px;
+    width: 500px;
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
