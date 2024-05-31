@@ -105,14 +105,14 @@ p {
     /* padding: 20px; */
     /* margin: 20px; */
     background-color: cadetblue;
-    /* width: 500px; */
+    width: 500px;
     /* height: 100px; */
     /* display: flex; */
     /* justify-content: flex-end; */
     /* margin-left: auto; */
     /* text-align: center; */
- padding-left: 150px;  
- padding-right: 150px; 
+ padding-left: 200px;  
+ padding-right: 200px; 
  padding-top: 90px;
  padding-bottom: 20px;
 }
