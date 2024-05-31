@@ -7,6 +7,9 @@ body {
 
 body>div {
     padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+
 }
 
 .header {
@@ -18,10 +21,13 @@ a {
     color: grey;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px;
-    margin: 15px;
+    /* padding: 15px; */
+    /* margin: 15px; */
 }
-
+h3 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
 figure>div {
     border: 5px solid blue;
     margin: 0;
@@ -43,11 +49,10 @@ h4 {
 }
 
 p {
-    font-size: 12px;
-    /* text-wrap: wrap; */
+    font-size: 18px;
     padding: 0;
-    /* width: 0; */
-       
+    margin: 0;
+
 }
 
 .button {
@@ -61,15 +66,16 @@ p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    
-    
-   }
+
+
+
+}
 
 .attribution {
     font-weight: bold;
     background-color: #E5E7EB;
     text-align: end;
-    
+
 
 }
 
@@ -94,18 +100,24 @@ p {
 }
 
 .placeholder {
-    font-size: 16px;
+    font-size: 18px;
     color: #E5E7EB;
-    padding: 40px;
-    margin: 40px;
+    padding: 20px;
+    margin: 20px;
     background-color: cadetblue;
     width: 500px;
+    height: 100px;
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
-   
+    text-align: center;
+    
 }
-
+#quote {
+    background-color: #E5E7EB;
+    padding: 10px;
+    margin: 10px;
+}
 
 #footer {
     display: flex;
